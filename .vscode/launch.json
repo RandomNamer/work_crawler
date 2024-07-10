@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Electron",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/electron/cli.js",
+        "args" : ["."],
+        "stopOnEntry": false,
+        "cwd": "${workspaceFolder}"
+      }
+    ]
+  }

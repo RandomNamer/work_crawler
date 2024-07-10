@@ -1,119 +1,156 @@
 {
-	"name" : "work_crawler",
-	"title" : "CeJS online novels and comics downloader",
-	"version" : "v2.14.0",
-	"description" : "A tool using CeJS library to download online novels / comics.",
-	"keywords" : [ "comic-downloader", "novel-downloader", "cejs",
-			"downloader", "download-comic", "epub", "ebook", "comics",
-			"webcomics", "manga-downloader", "manga", "narou", "novels",
-			"crawler" ],
-	"author" : {
-		"name" : "Colorless echo",
-		"email" : "vimunci@gmail.com",
-		"url" : "https://github.com/kanasimi/work_crawler"
+	"name": "work_crawler",
+	"title": "CeJS online novels and comics downloader",
+	"version": "v2.14.0",
+	"description": "A tool using CeJS library to download online novels / comics.",
+	"keywords": [
+		"comic-downloader",
+		"novel-downloader",
+		"cejs",
+		"downloader",
+		"download-comic",
+		"epub",
+		"ebook",
+		"comics",
+		"webcomics",
+		"manga-downloader",
+		"manga",
+		"narou",
+		"novels",
+		"crawler"
+	],
+	"author": {
+		"name": "Colorless echo",
+		"email": "vimunci@gmail.com",
+		"url": "https://github.com/kanasimi/work_crawler"
 	},
-	"contributors" : [ "vimunci" ],
-	"license" : "BSD-3-Clause",
-	"homepage" : "https://github.com/kanasimi/work_crawler",
-	"bugs" : {
-		"url" : "https://github.com/kanasimi/work_crawler/issues"
+	"contributors": [
+		"vimunci"
+	],
+	"license": "BSD-3-Clause",
+	"homepage": "https://github.com/kanasimi/work_crawler",
+	"bugs": {
+		"url": "https://github.com/kanasimi/work_crawler/issues"
 	},
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/kanasimi/work_crawler.git"
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kanasimi/work_crawler.git"
 	},
-
-	"main" : "gui_electron/gui_electron.js",
-	"scripts" : {
-		"start" : "node_modules/.bin/electron .",
-		"pack" : "node_modules/.bin/electron-builder --dir",
-		"dist" : "node_modules/.bin/electron-builder",
-		"postinstall" : "node_modules/.bin/electron-builder install-app-deps"
+	"main": "gui_electron/gui_electron.js",
+	"scripts": {
+		"start": "node_modules/.bin/electron .",
+		"pack": "node_modules/.bin/electron-builder --dir",
+		"dist": "node_modules/.bin/electron-builder",
+		"postinstall": "node_modules/.bin/electron-builder install-app-deps"
 	},
-
-	"build" : {
-		"productName" : "work_crawler",
-		"appId" : "org.kanasimi.work_crawler",
-		"directories" : {
-			"output" : "build"
+	"build": {
+		"productName": "work_crawler",
+		"appId": "org.kanasimi.work_crawler",
+		"directories": {
+			"output": "build"
 		},
-		"publish" : [ {
-			"provider" : "github",
-			"owner" : "kanasimi",
-			"repo" : "work_crawler"
-		} ],
-		"files" : [ "package.json", "node_modules/*", "resources/*",
-				"_CeL.loader.nodejs.js", "gui_electron/**/*",
-				"work_crawler_loader.js",
-				"work_crawler.default_configuration.js", "comic.*/**/*",
-				"novel.*/**/*" ],
-
-		"mac" : {
-			"category" : "Network",
-			"target" : [ "dmg", "pkg", "zip" ],
-			"icon" : "gui_electron/icon/rasen2.png"
+		"publish": [
+			{
+				"provider": "github",
+				"owner": "kanasimi",
+				"repo": "work_crawler"
+			}
+		],
+		"files": [
+			"package.json",
+			"node_modules/*",
+			"resources/*",
+			"_CeL.loader.nodejs.js",
+			"gui_electron/**/*",
+			"work_crawler_loader.js",
+			"work_crawler.default_configuration.js",
+			"comic.*/**/*",
+			"novel.*/**/*"
+		],
+		"mac": {
+			"category": "Network",
+			"target": [
+				"dmg",
+				"pkg",
+				"zip"
+			],
+			"icon": "gui_electron/icon/rasen2.png"
 		},
-		"dmg" : {
-			"icon" : "gui_electron/icon/rasen2.png",
-			"contents" : [ {
-				"x" : 110,
-				"y" : 150
-			}, {
-				"x" : 240,
-				"y" : 150,
-				"type" : "link",
-				"path" : "/Applications"
-			} ]
+		"dmg": {
+			"icon": "gui_electron/icon/rasen2.png",
+			"contents": [
+				{
+					"x": 110,
+					"y": 150
+				},
+				{
+					"x": 240,
+					"y": 150,
+					"type": "link",
+					"path": "/Applications"
+				}
+			]
 		},
-		"mas" : {
-			"icon" : "gui_electron/icon/rasen2.png",
-			"extendInfo" : {
-				"ElectronTeamID" : "TEAMID"
+		"mas": {
+			"icon": "gui_electron/icon/rasen2.png",
+			"extendInfo": {
+				"ElectronTeamID": "TEAMID"
 			},
-			"category" : "public.app-category.entertainment"
+			"category": "public.app-category.entertainment"
 		},
-
-		"linux" : {
-			"target" : [ {
-				"target" : "AppImage",
-				"arch" : [ "x64" ]
-			}, {
-				"target" : "deb",
-				"arch" : [ "x64" ]
-			}, {
-				"target" : "apk"
-			} ],
-			"category" : "Network",
-			"icon" : "gui_electron/icon/rasen2.png"
+		"linux": {
+			"target": [
+				{
+					"target": "AppImage",
+					"arch": [
+						"x64"
+					]
+				},
+				{
+					"target": "deb",
+					"arch": [
+						"x64"
+					]
+				},
+				{
+					"target": "apk"
+				}
+			],
+			"category": "Network",
+			"icon": "gui_electron/icon/rasen2.png"
 		},
-
-		"win" : {
-			"target" : [ {
-				"target" : "nsis",
-				"arch" : [ "x64", "ia32" ]
-			} ],
-			"icon" : "gui_electron/icon/rasen2.ico"
+		"win": {
+			"target": [
+				{
+					"target": "nsis",
+					"arch": [
+						"x64",
+						"ia32"
+					]
+				}
+			],
+			"icon": "gui_electron/icon/rasen2.ico"
 		},
-
-		"nsis" : {
-			"oneClick" : false,
-			"perMachine" : false,
-			"allowElevation" : true,
-			"allowToChangeInstallationDirectory" : true,
-			"createDesktopShortcut" : true,
-			"runAfterFinish" : true
+		"nsis": {
+			"oneClick": false,
+			"perMachine": false,
+			"allowElevation": true,
+			"allowToChangeInstallationDirectory": true,
+			"createDesktopShortcut": true,
+			"runAfterFinish": true
 		}
 	},
-	"engines" : {
-		"node" : ">=8.12.0"
+	"engines": {
+		"node": ">=8.12.0"
 	},
-	"devDependencies" : {
-		"electron" : "latest",
-		"electron-builder" : "latest"
+	"devDependencies": {
+		"electron": "latest",
+		"electron-builder": "latest"
 	},
-	"dependencies" : {
-		"electron-updater" : "latest",
-		"gh-updater" : "latest",
-		"cejs" : "latest"
+	"dependencies": {
+		"cejs": "latest",
+		"electron-updater": "latest",
+		"gh-updater": "latest",
+		"xml-js": "^1.6.11"
 	}
 }

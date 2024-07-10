@@ -7,8 +7,7 @@
  * 增加下載選項的時候，必須同步更改本檔案中的 download_options_set、CeL.application.net.work_crawler
  * 中的 Work_crawler_prototype, import_arg_hash。
  */
-const {makeCbz} = require('../cbzMaker')
-const path = require('path')
+
 // const
 var node_electron = require('electron'),
 // const: work_crawler/
@@ -352,7 +351,7 @@ require(base_directory + 'work_crawler_loader.js');
 // declaration for gettext(). @see setup_language_menu()
 var _;
 // 設定國際性語言 language force convert. @see setup_language_menu()
-var force_convert = [ 'CN' ];
+var force_convert = [ 'en' ];
 
 // 2022/4/20 18:31:47 採用單一語系檔，轉移至系統語系檔: CeJS/application/locale/resources/*.js
 // 現在此處僅提供一個使用範例。
@@ -471,7 +470,7 @@ function initializer() {
 
 	// --------------------------------
 
-	setup_ipcRenderer();
+	// setup_ipcRenderer();
 
 	// https://developer.mozilla.org/en-US/docs/Web/API/Notification/permission
 	// https://electronjs.org/docs/tutorial/desktop-environment-integration
@@ -639,6 +638,8 @@ function setup_ipcRenderer() {
 
 	node_electron.ipcRenderer.on('open_dialog', recerive_dialog_result);
 }
+
+
 
 // ------------------------------------
 
@@ -1237,7 +1238,9 @@ function paste_text() {
 	}
 }
 
+//Disabled in DOM;
 function show_fso(fso_path) {
+	return true;
 	try {
 		// 跳轉至目標資料夾的目錄下，而不只標示出資料夾位置。
 		// https://electronjs.org/docs/api/shell
@@ -1259,6 +1262,8 @@ function show_fso(fso_path) {
 }
 
 function open_URL(URL) {
+	window.open(URL, "_blank");
+	return true;
 	if (typeof URL !== 'string') {
 		URL = this.href;
 		if (!URL)
@@ -2845,8 +2850,7 @@ function initialize_work_data(crawler, work_data) {
 
 function after_download_chapter(work_data, chapter_NO) {
 	initialize_work_data(this, work_data);
-	
-	console.log("After download event:", work_data, chapter_NO)
+
 	work_data.downloaded_chapters = chapter_NO;
 	var percent = Math.round(1000 * chapter_NO / work_data.chapter_count)
 	// 將 "/ 10" 提到上一行會造成無法格式化程式碼的問題。
@@ -2889,8 +2893,6 @@ function after_download_chapter(work_data, chapter_NO) {
 	});
 
 	set_taskbar_progress(all_downloaded_chapters / all_chapters);
-	console.log("calling cbzmaker for new chapter")
-	makeCbz(path.join(path.dirname(globalThis.data_directory), "cbz"), work_data, chapter_NO);
 }
 
 function onerror(error, work_data) {
@@ -3041,6 +3043,8 @@ function check_update_NOT_package() {
 }
 
 function check_update() {
+	console.log("Check update is disabled, returning")
+	return true;
 	if (!global.auto_update) {
 		CeL.log({
 			// gettext_config:{"id":"automatically-update-is-disabled"}
@@ -3147,8 +3151,9 @@ var NONE_TASKBAR_PROGRESS = -1,
 // 不定量的進度，沒有細細的進度條。
 INDETERMINATE_TASKBAR_PROGRESS = 2;
 
-// GUI progress bar
+// GUI progress bar, disabled in browser.
 function set_taskbar_progress(progress) {
+	return true;
 	if (// CeL.platform.OS !== 'darwin' ||
 	!process.env.Apple_PubSub_Socket_Render) {
 		// macOS APP 中 win.setProgressBar() 會造成 crash?
@@ -3183,6 +3188,7 @@ function recerive_dialog_result(event, result) {
 }
 
 function open_DevTools() {
+	return;
 	node_electron.ipcRenderer.send('open_DevTools', true);
 	console.warn('-'.repeat(80));
 	// gettext_config:{"id":"this-column-is-basically-for-debugging-purposes-only.-if-you-have-downloading-problems-please-feel-free-to-report-the-issue-thank-you"}
