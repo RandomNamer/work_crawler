@@ -1,0 +1,1181 @@
+{
+    "DM5": {
+        "title": "安达与岛村",
+        "author": "入间人间  柚原もけ",
+        "description": "两位女子高中生的悠哉悠哉的日常~",
+        "image": "https://mhfm2us.cdnmanhua.net/51/50439/20190527130653_450x600_106.jpg",
+        "score": "7.0分",
+        "next_update": "",
+        "part_list": [
+            null,
+            "连载",
+            null,
+            "番外"
+        ],
+        "latest_chapter": "安达与岛村 第38.2话",
+        "last_update": "06月28号",
+        "状态": "连载中",
+        "                        题材": "校园 百合",
+        "status": "连载中",
+        "input_title": "安达与岛村",
+        "site_name": "动漫屋",
+        "id": "manhua-andayudaocun1",
+        "last_download": {
+            "date": "2024-07-16T20:26:12.628Z",
+            "chapter": 4
+        },
+        "url": "http://www.dm5.com/manhua-andayudaocun1/",
+        "directory_name": "manhua-andayudaocun1 安达与岛村",
+        "directory": "/mnt/medialibrary/Books/Comic/work_crawler/raw/dm5/manhua-andayudaocun1 安达与岛村/",
+        "data_file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/dm5/manhua-andayudaocun1 安达与岛村/manhua-andayudaocun1 安达与岛村.json",
+        "language": "zh-cmn-Hans-CN",
+        "chapter_unit": "章",
+        "time_zone": 8,
+        "chapter_list": [
+            {
+                "title": "单行本1卷蜜瓜特典 （6P）",
+                "url": "/m1199838/",
+                "part_NO": 1,
+                "part_title": "番外",
+                "NO_in_part": 1
+            },
+            {
+                "title": "第1话 （41P）",
+                "url": "/m826258/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 1
+            },
+            {
+                "title": "第2话 （31P）",
+                "url": "/m841065/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 2
+            },
+            {
+                "title": "第3话 （34P）",
+                "url": "/m869194/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 3
+            },
+            {
+                "title": "第4话 （23P）",
+                "url": "/m895592/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 4
+            },
+            {
+                "title": "第5.1话 （26P）",
+                "url": "/m907629/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 5
+            },
+            {
+                "title": "第5.2话 （25P）",
+                "url": "/m934298/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 6
+            },
+            {
+                "title": "第6话 （22P）",
+                "url": "/m945612/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 7
+            },
+            {
+                "title": "第7话 （23P）",
+                "url": "/m964793/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 8
+            },
+            {
+                "title": "第8话 （24P）",
+                "url": "/m974752/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 9
+            },
+            {
+                "title": "第9话 （30P）",
+                "url": "/m980504/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 10
+            },
+            {
+                "title": "第10话 （30P）",
+                "url": "/m997198/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 11
+            },
+            {
+                "title": "第11话 （34P）",
+                "url": "/m1007931/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 12
+            },
+            {
+                "title": "第12话 （21P）",
+                "url": "/m1021978/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 13
+            },
+            {
+                "title": "第12.5话 （22P）",
+                "url": "/m1030563/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 14
+            },
+            {
+                "title": "第13话 （10P）",
+                "url": "/m1199837/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 15
+            },
+            {
+                "title": "第14话 （22P）",
+                "url": "/m1199839/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 16
+            },
+            {
+                "title": "第15.1话 （14P）",
+                "url": "/m1199840/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 17
+            },
+            {
+                "title": "第15.5话 （19P）",
+                "url": "/m1199841/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 18
+            },
+            {
+                "title": "第16.1话 （26P）",
+                "url": "/m1199842/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 19
+            },
+            {
+                "title": "第16.5话 （35P）",
+                "url": "/m1199845/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 20
+            },
+            {
+                "title": "第17话 前篇 （14P）",
+                "url": "/m1199846/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 21
+            },
+            {
+                "title": "第17.5话 后篇 （16P）",
+                "url": "/m1199849/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 22
+            },
+            {
+                "title": "第18话 （10P）",
+                "url": "/m1199850/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 23
+            },
+            {
+                "title": "第19话 （45P）",
+                "url": "/m1435557/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 24
+            },
+            {
+                "title": "第20话 （31P）",
+                "url": "/m1435558/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 25
+            },
+            {
+                "title": "第21话 （28P）",
+                "url": "/m1435559/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 26
+            },
+            {
+                "title": "第22话 （17P）",
+                "url": "/m1435560/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 27
+            },
+            {
+                "title": "第23话 （23P）",
+                "url": "/m1435561/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 28
+            },
+            {
+                "title": "第24话 （31P）",
+                "url": "/m1435562/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 29
+            },
+            {
+                "title": "第25话 （17P）",
+                "url": "/m1435563/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 30
+            },
+            {
+                "title": "第26话 （16P）",
+                "url": "/m1435564/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 31
+            },
+            {
+                "title": "第27话 （64P）",
+                "url": "/m1435565/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 32
+            },
+            {
+                "title": "第28话 （22P）",
+                "url": "/m1435566/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 33
+            },
+            {
+                "title": "第29话 （61P）",
+                "url": "/m1435567/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 34
+            },
+            {
+                "title": "第30话 （26P）",
+                "url": "/m1435568/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 35
+            },
+            {
+                "title": "第30.5话 （7P）",
+                "url": "/m1435569/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 36
+            },
+            {
+                "title": "第31话 （17P）",
+                "url": "/m1468898/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 37
+            },
+            {
+                "title": "第32话 （16P）",
+                "url": "/m1468899/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 38
+            },
+            {
+                "title": "第33话 （24P）",
+                "url": "/m1468900/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 39
+            },
+            {
+                "title": "第34话 （18P）",
+                "url": "/m1491650/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 40
+            },
+            {
+                "title": "第34.2话 （8P）",
+                "url": "/m1510421/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 41
+            },
+            {
+                "title": "第35话 （22P）",
+                "url": "/m1510422/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 42
+            },
+            {
+                "title": "第36.1话 （14P）",
+                "url": "/m1510423/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 43
+            },
+            {
+                "title": "第36.2话 （18P）",
+                "url": "/m1517228/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 44
+            },
+            {
+                "title": "第37话 （14P）",
+                "url": "/m1525701/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 45
+            },
+            {
+                "title": "第38话 （18P）",
+                "url": "/m1532019/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 46
+            },
+            {
+                "title": "第38.2话 （23P）",
+                "url": "/m1540274/",
+                "part_NO": 2,
+                "part_title": "连载",
+                "NO_in_part": 47
+            }
+        ],
+        "latest_chapter_url": "/m1540274/",
+        "fill_from_chapter_list": true,
+        "chapter_count": 48,
+        "reget_chapter": true,
+        "error_images": 0,
+        "image_count": 0,
+        "start_downloading_time": 1721161572634,
+        "start_downloading_chapter": 1,
+        "original_downloading_name": "安达与岛村",
+        "downloaded_chapters": 4,
+        "image_list": [
+            null,
+            [
+                "http://manhua1035zjcdn26.cdnmanhua.net/51/50439/1199838/1_7520.jpg?cid=1199838&key=c37ba9391a9bc2bb3f015e7c9d5ae5f7",
+                "http://manhua1035zjcdn26.cdnmanhua.net/51/50439/1199838/2_6351.jpg?cid=1199838&key=c37ba9391a9bc2bb3f015e7c9d5ae5f7",
+                "http://manhua1035zjcdn26.cdnmanhua.net/51/50439/1199838/3_5798.jpg?cid=1199838&key=c37ba9391a9bc2bb3f015e7c9d5ae5f7",
+                "http://manhua1035zjcdn26.cdnmanhua.net/51/50439/1199838/4_1357.jpg?cid=1199838&key=c37ba9391a9bc2bb3f015e7c9d5ae5f7",
+                "http://manhua1035zjcdn26.cdnmanhua.net/51/50439/1199838/5_4307.jpg?cid=1199838&key=c37ba9391a9bc2bb3f015e7c9d5ae5f7",
+                "http://manhua1035zjcdn26.cdnmanhua.net/51/50439/1199838/6_4788.jpg?cid=1199838&key=c37ba9391a9bc2bb3f015e7c9d5ae5f7"
+            ],
+            [
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/1_4372.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/2_7689.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/3_8404.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/4_7033.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/5_3065.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/6_4398.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/7_6093.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/8_7423.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/9_2805.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/10_2641.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/11_1096.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/12_1866.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/13_8430.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/14_4393.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/15_1725.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/16_9458.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/17_6906.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/18_2049.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/19_4387.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/20_2698.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/21_1221.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/22_7432.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/23_8517.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/24_9652.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/25_1446.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/26_2058.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/27_1622.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/28_1964.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/29_4110.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/30_5386.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/31_3614.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/32_5883.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/33_6727.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/34_7894.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/35_6198.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/36_9885.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/37_9529.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/38_8575.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/39_4997.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/40_7219.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1032zjcdn26.cdnmanhua.net/51/50439/826258/41_9734.jpg?cid=826258&key=65fff80dc4bc86b0eafa7445f30af763"
+            ],
+            [
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/1_9290.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/2_9108.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/3_9350.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/4_6439.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/5_9354.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/6_7858.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/7_3951.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/8_1751.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/9_6255.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/10_1994.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/11_9308.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/12_9862.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/13_5624.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/14_3879.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/15_8591.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/16_6628.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/17_3930.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/18_6518.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/19_9535.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/20_7013.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/21_1201.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/22_4716.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/23_5845.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/24_6390.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/25_2761.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/26_6407.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/27_3047.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/28_2191.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/29_3358.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/30_3826.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/841065/31_5046.jpg?cid=841065&key=65fff80dc4bc86b0eafa7445f30af763"
+            ],
+            [
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/1_6220.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/2_5608.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/3_8965.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/4_6884.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/5_4743.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/6_3786.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/7_4444.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/8_1488.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/9_3036.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/10_2817.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/11_5203.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/12_3220.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/13_9153.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/14_1855.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/15_8264.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/16_8241.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/17_4273.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/18_6623.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/19_3140.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/20_1025.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/21_3798.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/22_7062.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/23_1314.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/24_4976.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/25_2228.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/26_7045.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/27_2454.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/28_8575.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/29_5728.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/30_4428.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/31_5230.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/32_4595.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/33_9595.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763",
+                "http://manhua1033zjcdn26.cdnmanhua.net/51/50439/869194/34_2829.jpg?cid=869194&key=65fff80dc4bc86b0eafa7445f30af763"
+            ]
+        ],
+        "DM5": {
+            "CURL": "/m869194/",
+            "CURL_END": "/m869194-end/",
+            "CTITLE": "安达与岛村 第3话",
+            "MID": 50439,
+            "CID": 869194,
+            "IMAGE_COUNT": 34,
+            "USERID": 0,
+            "FROM": "%2fm869194%2f",
+            "PAGETYPE": 9,
+            "PAGEINDEX": 1,
+            "PAGEPCOUNT": 2,
+            "POSTCOUNT": 15,
+            "READMODEL": 1,
+            "CURRENTFOCUS": 1,
+            "VIEWSIGN": "aa9eae9ae2e640148c5752a4f87f0143",
+            "VIEWSIGN_DT": "2024-07-17 04:26:51"
+        },
+        "last_saved": "2024-07-16T20:27:07.257Z"
+    },
+    "manhuadb": {
+        "publish": "",
+        "description": "这里是丸子商店街，乍看之下很平凡、没什麽特别，却有间不平凡的女仆咖啡店「SEASIDE」，在咖啡店里打工的迷糊女高中生？岚山步鸟、适合厚重女仆装的老板娘，以及商店街形形色色的人们，将为您带来一连串笑料不断的女仆咖啡店正式开张萝！！       岚山步鸟是丸子商店街咖啡厅“SEASIDE”的一名普通的兼职服务生。某一天，店长兴起念头决定把咖啡厅打造成时下流行的女仆咖啡厅，可惜咖啡厅里没有一个人对女仆咖啡厅有了解。通常的话，应该先到别的咖啡厅去调查才对，可是“SEASIDE”仅仅让服务生穿上女仆的服装就宣布重新开业了。步鸟的同班同学同时也是同事的辰野俊子，在街上偶尔遇到的有点酷的前辈绀双叶（步鸟开始还以为她是个少年），喜欢着步鸟的青梅竹马同班同学真田广章等，步鸟周围的日常在缓慢的流动着……",
+        "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+        "renderer": "webkit",
+        "applicable-device": "pc,mobile",
+        "keywords": "女仆咖啡厅,石黑正数,漫画DB",
+        "type": "novel",
+        "title": "女仆咖啡厅",
+        "image": "https://media.manhuacdn.com/cartoon/7322_title_xlpzsikh_720x405.jpg",
+        "category": "奇幻 搞笑",
+        "author": "石黑正数",
+        "book_name": "女仆咖啡厅",
+        "read_url": "https://www.manhuadb.com/manhua/7322",
+        "url": "https://www.manhuadb.com/manhua/7322",
+        "status": "已完结",
+        "author_link": "https://www.manhuadb.com/manhua/list-o-1831.html",
+        "update_time": "2021-04-26",
+        "latest_chapter_name": "台版单行本电子版第16卷",
+        "latest_chapter_url": "https://www.manhuadb.com/manhua/7322/28809_293546.html",
+        "author_other_books": "未来狂呕 多丽丝与魔豆 即使如此小镇依然转动 官方导读本传阅板 被盯上的保险柜 石黑正数短篇集2：积极老师 石黑正数短篇集：侦探绮谭 响子和爸爸 外天楼",
+        "漫画名称": "即使如此小镇依然转动 / 女僕咖啡廳",
+        "漫画原名": "それでも町は廻っている",
+        "连载话数": "全129话",
+        "单行本数": "全16卷",
+        "连载状态": "已完结 以原作发行状态为准",
+        "连载时间": "2005 - 2016 以原作发布时间为准",
+        "原作地区": "日本漫画",
+        "面向读者": "青年",
+        "input_title": "女仆咖啡厅",
+        "site_name": "漫画DB",
+        "id": "7322",
+        "last_download": {
+            "date": "2024-07-16T20:30:48.435Z",
+            "chapter": 73
+        },
+        "directory_name": "7322 女仆咖啡厅",
+        "directory": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/",
+        "data_file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/7322 女仆咖啡厅.json",
+        "language": "zh-cmn-Hans-CN",
+        "chapter_unit": "章",
+        "time_zone": 8,
+        "chapter_list": [
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 1,
+                "chapter_NO": 1,
+                "url": "/manhua/7322/28809_293547.html",
+                "title": "石黑正数-女仆咖啡厅01"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 2,
+                "chapter_NO": 2,
+                "url": "/manhua/7322/28809_293554.html",
+                "title": "石黑正数-女仆咖啡厅02"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 3,
+                "chapter_NO": 3,
+                "url": "/manhua/7322/28809_293552.html",
+                "title": "石黑正数-女仆咖啡厅03"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 4,
+                "chapter_NO": 4,
+                "url": "/manhua/7322/28809_293549.html",
+                "title": "石黑正数-女仆咖啡厅04"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 5,
+                "chapter_NO": 5,
+                "url": "/manhua/7322/28809_293543.html",
+                "title": "石黑正数-女仆咖啡厅05"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 6,
+                "chapter_NO": 6,
+                "url": "/manhua/7322/28809_293551.html",
+                "title": "石黑正数-女仆咖啡厅06"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 7,
+                "chapter_NO": 7,
+                "url": "/manhua/7322/28809_293544.html",
+                "title": "石黑正数-女仆咖啡厅07"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 8,
+                "chapter_NO": 8,
+                "url": "/manhua/7322/28809_293545.html",
+                "title": "石黑正数-女仆咖啡厅08"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 9,
+                "chapter_NO": 9,
+                "url": "/manhua/7322/28809_293541.html",
+                "title": "石黑正数-女仆咖啡厅09"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 10,
+                "chapter_NO": 10,
+                "url": "/manhua/7322/28809_293542.html",
+                "title": "石黑正数-女仆咖啡厅10"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 11,
+                "chapter_NO": 11,
+                "url": "/manhua/7322/28809_293555.html",
+                "title": "石黑正数-女仆咖啡厅11"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 12,
+                "chapter_NO": 12,
+                "url": "/manhua/7322/28809_293548.html",
+                "title": "石黑正数-女仆咖啡厅12"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 13,
+                "chapter_NO": 13,
+                "url": "/manhua/7322/28809_293553.html",
+                "title": "石黑正数-女仆咖啡厅13"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 14,
+                "chapter_NO": 14,
+                "url": "/manhua/7322/28809_293550.html",
+                "title": "石黑正数-女仆咖啡厅14"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 15,
+                "chapter_NO": 15,
+                "url": "/manhua/7322/28809_293556.html",
+                "title": "石黑正数-女仆咖啡厅15"
+            },
+            {
+                "part_title": "台版单行本电子版",
+                "NO_in_part": 16,
+                "chapter_NO": 16,
+                "url": "/manhua/7322/28809_293546.html",
+                "title": "石黑正数-女仆咖啡厅16"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 1,
+                "chapter_NO": 1,
+                "url": "/manhua/7322/9140_133208.html",
+                "title": "第01卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 2,
+                "chapter_NO": 2,
+                "url": "/manhua/7322/9140_133210.html",
+                "title": "第02卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 3,
+                "chapter_NO": 3,
+                "url": "/manhua/7322/9140_133211.html",
+                "title": "第03卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 4,
+                "chapter_NO": 4,
+                "url": "/manhua/7322/9140_133212.html",
+                "title": "第04卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 5,
+                "chapter_NO": 5,
+                "url": "/manhua/7322/9140_133202.html",
+                "title": "第05卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 6,
+                "chapter_NO": 6,
+                "url": "/manhua/7322/9140_133207.html",
+                "title": "第06卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 7,
+                "chapter_NO": 7,
+                "url": "/manhua/7322/9140_133203.html",
+                "title": "第07卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 8,
+                "chapter_NO": 8,
+                "url": "/manhua/7322/9140_133213.html",
+                "title": "第08卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 9,
+                "chapter_NO": 9,
+                "url": "/manhua/7322/9140_133204.html",
+                "title": "第09卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 10,
+                "chapter_NO": 10,
+                "url": "/manhua/7322/9140_133205.html",
+                "title": "第10卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 11,
+                "chapter_NO": 11,
+                "url": "/manhua/7322/9140_133209.html",
+                "title": "第11卷"
+            },
+            {
+                "part_title": "台版单行本扫版",
+                "NO_in_part": 12,
+                "chapter_NO": 12,
+                "url": "/manhua/7322/9140_133206.html",
+                "title": "第12卷"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 1,
+                "chapter_NO": 1,
+                "url": "/manhua/7322/9124_133132.html",
+                "title": "第96回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 2,
+                "chapter_NO": 2,
+                "url": "/manhua/7322/9124_133139.html",
+                "title": "第97回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 3,
+                "chapter_NO": 3,
+                "url": "/manhua/7322/9124_133136.html",
+                "title": "第98回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 4,
+                "chapter_NO": 4,
+                "url": "/manhua/7322/9124_133122.html",
+                "title": "第99回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 5,
+                "chapter_NO": 5,
+                "url": "/manhua/7322/9124_133109.html",
+                "title": "第100回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 6,
+                "chapter_NO": 6,
+                "url": "/manhua/7322/9124_133103.html",
+                "title": "第101回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 7,
+                "chapter_NO": 7,
+                "url": "/manhua/7322/9124_133130.html",
+                "title": "第102回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 8,
+                "chapter_NO": 8,
+                "url": "/manhua/7322/9124_133115.html",
+                "title": "第103回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 9,
+                "chapter_NO": 9,
+                "url": "/manhua/7322/9124_133098.html",
+                "title": "第104回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 10,
+                "chapter_NO": 10,
+                "url": "/manhua/7322/9124_133140.html",
+                "title": "第105回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 11,
+                "chapter_NO": 11,
+                "url": "/manhua/7322/9124_133121.html",
+                "title": "第106回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 12,
+                "chapter_NO": 12,
+                "url": "/manhua/7322/9124_133119.html",
+                "title": "第107回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 13,
+                "chapter_NO": 13,
+                "url": "/manhua/7322/9124_133110.html",
+                "title": "第108回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 14,
+                "chapter_NO": 14,
+                "url": "/manhua/7322/9124_133127.html",
+                "title": "第109回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 15,
+                "chapter_NO": 15,
+                "url": "/manhua/7322/9124_133100.html",
+                "title": "第110回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 16,
+                "chapter_NO": 16,
+                "url": "/manhua/7322/9124_133133.html",
+                "title": "第111回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 17,
+                "chapter_NO": 17,
+                "url": "/manhua/7322/9124_133105.html",
+                "title": "第112回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 18,
+                "chapter_NO": 18,
+                "url": "/manhua/7322/9124_133126.html",
+                "title": "第113回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 19,
+                "chapter_NO": 19,
+                "url": "/manhua/7322/9124_133123.html",
+                "title": "第114回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 20,
+                "chapter_NO": 20,
+                "url": "/manhua/7322/9124_133108.html",
+                "title": "第115回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 21,
+                "chapter_NO": 21,
+                "url": "/manhua/7322/9124_133137.html",
+                "title": "第116回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 22,
+                "chapter_NO": 22,
+                "url": "/manhua/7322/9124_133113.html",
+                "title": "第117回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 23,
+                "chapter_NO": 23,
+                "url": "/manhua/7322/9124_133117.html",
+                "title": "第118回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 24,
+                "chapter_NO": 24,
+                "url": "/manhua/7322/9124_133138.html",
+                "title": "第119回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 25,
+                "chapter_NO": 25,
+                "url": "/manhua/7322/9124_133118.html",
+                "title": "第120回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 26,
+                "chapter_NO": 26,
+                "url": "/manhua/7322/9124_133114.html",
+                "title": "第121回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 27,
+                "chapter_NO": 27,
+                "url": "/manhua/7322/9124_133106.html",
+                "title": "第122回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 28,
+                "chapter_NO": 28,
+                "url": "/manhua/7322/9124_133129.html",
+                "title": "第123回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 29,
+                "chapter_NO": 29,
+                "url": "/manhua/7322/9124_133116.html",
+                "title": "第124回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 30,
+                "chapter_NO": 30,
+                "url": "/manhua/7322/9124_133131.html",
+                "title": "第125回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 31,
+                "chapter_NO": 31,
+                "url": "/manhua/7322/9124_133111.html",
+                "title": "第126回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 32,
+                "chapter_NO": 32,
+                "url": "/manhua/7322/9124_133101.html",
+                "title": "第127回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 33,
+                "chapter_NO": 33,
+                "url": "/manhua/7322/9124_133099.html",
+                "title": "第128回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 34,
+                "chapter_NO": 34,
+                "url": "/manhua/7322/9124_133120.html",
+                "title": "第129回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 35,
+                "chapter_NO": 35,
+                "url": "/manhua/7322/9124_133125.html",
+                "title": "第130回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 36,
+                "chapter_NO": 36,
+                "url": "/manhua/7322/9124_133124.html",
+                "title": "第131回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 37,
+                "chapter_NO": 37,
+                "url": "/manhua/7322/9124_133102.html",
+                "title": "第132回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 38,
+                "chapter_NO": 38,
+                "url": "/manhua/7322/9124_133134.html",
+                "title": "第133回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 39,
+                "chapter_NO": 39,
+                "url": "/manhua/7322/9124_133104.html",
+                "title": "第134回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 40,
+                "chapter_NO": 40,
+                "url": "/manhua/7322/9124_133112.html",
+                "title": "第135回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 41,
+                "chapter_NO": 41,
+                "url": "/manhua/7322/9124_133141.html",
+                "title": "第136回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 42,
+                "chapter_NO": 42,
+                "url": "/manhua/7322/9124_133128.html",
+                "title": "第137回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 43,
+                "chapter_NO": 43,
+                "url": "/manhua/7322/9124_133107.html",
+                "title": "第138回"
+            },
+            {
+                "part_title": "连载",
+                "NO_in_part": 44,
+                "chapter_NO": 44,
+                "url": "/manhua/7322/9124_133135.html",
+                "title": "尾声"
+            },
+            {
+                "part_title": "番外篇",
+                "NO_in_part": 1,
+                "chapter_NO": 1,
+                "url": "/manhua/7322/9125_133142.html",
+                "title": "BD特典",
+                "image_list": [
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/1_qghyuxad.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-001.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/2_qxrpcjvo.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-002.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/3_cfmlwclc.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-003.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/4_rokcymtq.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-004.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/5_mnydwfpp.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-005.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/6_fvzlrivq.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-006.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/7_ozbiheqk.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-007.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/8_mznkizfq.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-008.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/9_hdhnzpsb.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-009.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/10_syzyqemy.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-010.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/11_ajqrfrrw.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-011.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/12_odcbdmva.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-012.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/13_lohxrtls.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-013.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/14_cylosyho.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-014.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/15_qxmkuaxu.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-015.jpg",
+                        "done": true
+                    },
+                    {
+                        "url": "https://i2.manhuacdn.com/static/9125/133142/16_gcptqxuj.jpg",
+                        "file": "/mnt/medialibrary/Books/Comic/work_crawler/raw/manhuadb/7322 女仆咖啡厅/番外篇 0001 BD特典/7322-1-016.jpg",
+                        "done": true
+                    }
+                ]
+            }
+        ],
+        "latest_chapter": "BD特典",
+        "fill_from_chapter_list": true,
+        "start_downloading_time": 1721161848459,
+        "start_downloading_chapter": 73,
+        "original_downloading_name": "女仆咖啡厅",
+        "downloaded_chapters": 73,
+        "last_saved": "2024-07-16T20:30:48.607Z",
+        "latest_download": {
+            "date": "2024-07-10T04:36:04.061Z",
+            "chapter": 73
+        },
+        "process_status": [
+            "finished",
+            "last saved date: 2024/7/10 1:13:43"
+        ],
+        "chapter_count": 73,
+        "reget_chapter": true,
+        "error_images": 0
+    }
+}

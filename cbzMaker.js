@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { exec } = require('child_process');
 const { info } = require('console');
+const { commonMetadataResolver, dm5MetadataResolver, manhuadbMetadataResolver } = require('./metadataBridge')
 
 module.exports = { makeCbz }
 
@@ -26,11 +27,11 @@ function countFiles(dir) {
 
 function composeMetadataXml(folder, comicInfo, chapterInfo, volumeSplitMultiplier = 0) {
     const {chapterName, volumeName, volumeOrdinal, chapterOrdinal, updatedAt} = chapterInfo
-    const [year, month, day] = chapterInfo.updatedAt.split('-')
+    const [year, month, day] = chapterInfo.updatedAt
     let fileCount = countFiles(folder)
     const authorString = comicInfo.authors.join(', ')
-    const tagString = comicInfo.tags.join(', ')
-
+    if (comicInfo.suggestedVolumeSplit != null) volumeSplitMultiplier = comicInfo.suggestedVolumeSplit
+    
     let comicInfoXmlObj = {
         _declaration: {
             _attributes: {
@@ -48,50 +49,40 @@ function composeMetadataXml(folder, comicInfo, chapterInfo, volumeSplitMultiplie
             Month: { _text: month },
             Day: { _text: day },
             Writer: { _text:  authorString},
-            Tags: { _text: tagString },
             Manga: {_text: "Yes"},
             PageCount: {_text: fileCount},
         },
         
     }
+
+    if (comicInfo.genre != null) comicInfoXmlObj.ComicInfo.Genre = {_text: comicInfo.genre.join(",")}
+    if (comicInfo.tags != null) comicInfoXmlObj.ComicInfo.Tags = {_text: comicInfo.tags.join(',')}
+    if (comicInfo.communityRating != null) comicInfoXmlObj.ComicInfo.CommunityRating = {_text: comicInfo.communityRating}
+
     let xml = js2xml(comicInfoXmlObj, {compact: true, spaces: 4})
     fs.writeFileSync(path.join(folder, 'ComicInfo.xml'), xml)
 }
 
-function workCrawlerMetadataBridge(workData, chapterNo) {
+function workCrawlerMetadataBridge(workData, chapterNo, siteUsed) {
     if (chapterNo < 1 || chapterNo > workData.chapter_list.length) {
         console.error(`Chapter number ${chapterNo} is out of range`)
-        return null;
+        return {comicInfo: null, chapterInfo: null};
     }
-    let volumeMap = {}
-    let currentVolumeOrdinal = 0
-    //chapterNo is actually not the same as in work_data, it's just the index.
-    workData.chapter_list.forEach(c => {
-        if (c.NO_in_part == 1) {
-            currentVolumeOrdinal ++;
-            volumeMap[c.part_title] = currentVolumeOrdinal
-        }
-    })
-    console.log("Volume map", volumeMap)
-    const c = workData.chapter_list[chapterNo - 1]
-    return {
-        //ComicInfo
-        comicInfo: {
-            authors: [workData.author],
-            title: workData.book_name,
-            tags: workData.category.split(' '),
-            description: workData.description,
-            web: workData.read_url,
-        },
-        chapterInfo: {
-            chapterName: c.title,
-            volumeName: c.part_title,
-            chapterOrdinal: c.NO_in_part,
-            volumeOrdinal: volumeMap[c.part_title],
-            updatedAt: workData.update_time, //Does not support per chapter update time
-            directory: path.dirname(c.image_list[0].file)
-        }
+    return dispatchMetadataResolver(workData, chapterNo, siteUsed)
+    
+}
+
+function dispatchMetadataResolver(workData, chapterNo, siteUsed) {
+    switch(siteUsed) {
+        case 'comic.cmn-Hans-CN/dm5':
+            return dm5MetadataResolver(workData, chapterNo)
+        case 'comic.cmn-Hans-CN/manhuadb':
+            return manhuadbMetadataResolver(workData, chapterNo)
+        default:
+            console.log("try resolve with limited metadata for site", siteUsed)
+            return commonMetadataResolver(workData, chapterNo);
     }
+
 }
 
 function compressDirectoryAlt(inputDir, outputFilePath, level = 0) {
@@ -113,8 +104,8 @@ function compressDirectoryAlt(inputDir, outputFilePath, level = 0) {
  * @param {string} cbzRoot Root folder of all abz files, which is the comic library.
  * @param {number} volumeSplitMultiplier We need to flatten the volume > chapter structure. This value controls how we tweak the ordinal of the chapter to push the chapters of other volumes to another section, for example chapter 1 of volume 2 will be 1001. Default is 0, which means no split.
  */
-async function makeCbz(cbzRoot, workData, chapterNo, volumeSplitMultiplier = 1000) {
-    let {comicInfo, chapterInfo} = workCrawlerMetadataBridge(workData, chapterNo)
+async function makeCbz(cbzRoot, workData, chapterNo, siteUsed, volumeSplitMultiplier = 1000) {
+    let {comicInfo, chapterInfo} = workCrawlerMetadataBridge(workData, chapterNo, siteUsed)
     if (!comicInfo || !chapterInfo ) {
         console.error(`Cannot resolve metadata for chapter #${chapterNo}`)
         return;
