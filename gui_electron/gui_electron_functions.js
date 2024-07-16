@@ -2890,7 +2890,7 @@ function after_download_chapter(work_data, chapter_NO) {
 
 	set_taskbar_progress(all_downloaded_chapters / all_chapters);
 	console.log("calling cbzmaker for new chapter")
-	makeCbz(path.join(path.dirname(globalThis.data_directory), "cbz"), work_data, chapter_NO);
+	makeCbz(path.join(path.dirname(globalThis.data_directory), "cbz"), work_data, chapter_NO, site_used);
 }
 
 function onerror(error, work_data) {
