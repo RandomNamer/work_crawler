@@ -27,7 +27,6 @@ function countFiles(dir) {
 
 function composeMetadataXml(folder, comicInfo, chapterInfo, volumeSplitMultiplier = 0) {
     const {chapterName, volumeName, volumeOrdinal, chapterOrdinal, updatedAt} = chapterInfo
-    const [year, month, day] = chapterInfo.updatedAt
     let fileCount = countFiles(folder)
     const authorString = comicInfo.authors.join(', ')
     if (comicInfo.suggestedVolumeSplit != null) volumeSplitMultiplier = comicInfo.suggestedVolumeSplit
@@ -45,16 +44,19 @@ function composeMetadataXml(folder, comicInfo, chapterInfo, volumeSplitMultiplie
             Number: { _text: chapterOrdinal + volumeSplitMultiplier * Math.max(volumeOrdinal - 1, 0) }, //We want chapters starts from 1 not volumeOrdinal * multiplier + 1
             // Volume: { _text: volumeName },
             Summary: { _text: comicInfo.description },
-            Year: { _text: year },
-            Month: { _text: month },
-            Day: { _text: day },
+            
             Writer: { _text:  authorString},
             Manga: {_text: "Yes"},
             PageCount: {_text: fileCount},
         },
         
     }
-
+    if (comicInfo.updatedAt != null) {
+        const [year, month, day] = chapterInfo.updatedAt
+        comicInfoXmlObj.ComicInfo.Year = { _text: year }
+        comicInfoXmlObj.ComicInfo.Month = { _text: month }
+        comicInfoXmlObj.ComicInfo.Day = { _text: day }
+    }
     if (comicInfo.genre != null) comicInfoXmlObj.ComicInfo.Genre = {_text: comicInfo.genre.join(",")}
     if (comicInfo.tags != null) comicInfoXmlObj.ComicInfo.Tags = {_text: comicInfo.tags.join(',')}
     if (comicInfo.communityRating != null) comicInfoXmlObj.ComicInfo.CommunityRating = {_text: comicInfo.communityRating}

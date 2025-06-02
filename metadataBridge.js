@@ -100,7 +100,8 @@ module.exports = {
         dateOffset = (workData.chapter_list.length - chapterNo) * 30; //One month for offset
         generatedUpdateDate = calculateDateOffset(lastUpdateDate, -dateOffset)
         chapterInfo.updatedAt = [generatedUpdateDate.getFullYear(), generatedUpdateDate.getMonth() + 1, generatedUpdateDate.getDate()]
-        
+    
+        chapterInfo.chapterOrdinal = chapterNo //Don use No_in_part
         chapterInfo.chapterName = workData.chapter_list[chapterNo - 1].title.replace(/\s*.\d+P.\s*/, '')
         return {comicInfo: comicInfo, chapterInfo: chapterInfo}
     },
